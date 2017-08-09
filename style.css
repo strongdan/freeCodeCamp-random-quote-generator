@@ -1,0 +1,58 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+  background-color: #D2D7D3;
+  font-family: 'Archivo', 'Oswald', 'Saira', Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center
+}
+
+.new_quote {
+  margin: 10px;
+  background-color: #ECF0F1;
+  clear: both;
+  float: left;
+  display:inline-block;
+}
+
+h1 {
+  margin-left: 60px;
+}
+h2, h4 {
+  text-align: center;
+}
+
+h4 {
+  float: right;
+}
+
+.new_quote {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+
+.buttons {
+  padding: 20px;
+  background-color: none;
+  clear: both;
+  display: block;
+  justify-content: center
+}
+
+.quote_button, tweet_button {
+  padding-right: 10px;
+  text-align: center;
+}
+
